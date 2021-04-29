@@ -1,0 +1,35 @@
+body {
+    font-size:  48px;
+    font-family:
+        "Hiragino Mincho",
+        "Noto Serif CJK JP",
+        "SimSun",
+        "Yu Minco", "YuMincho",
+        "Sazanami Mincho",
+        "Yu Gothic", "YuGothic",
+        "MS Gothic",
+        serif
+    ;
+}
+
+td.t, tr.t { /* titular alignment */
+    text-align:  center;
+}
+
+.borderless {
+    border:  none;
+}
+.bordered {
+    border:  1px solid gray;
+    width :  100%;
+}
+
+td.n, td.d, td.u {
+    text-align:  right;
+}
+.d {
+    color:  #FF0000;
+}
+.u {
+    color:  #0000FF;
+}
