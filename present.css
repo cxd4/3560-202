@@ -12,8 +12,14 @@ body {
     ;
 }
 
-td.t, tr.t { /* titular alignment */
-    text-align:  center;
+table {
+    width:  100%
+}
+td.prev {
+    text-align:  left;
+}
+td.next {
+    text-align:  right;
 }
 
 .borderless {
@@ -22,14 +28,4 @@ td.t, tr.t { /* titular alignment */
 .bordered {
     border:  1px solid gray;
     width :  100%;
-}
-
-td.n, td.d, td.u {
-    text-align:  right;
-}
-.d {
-    color:  #FF0000;
-}
-.u {
-    color:  #0000FF;
 }
